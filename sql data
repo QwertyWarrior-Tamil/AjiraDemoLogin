@@ -1,0 +1,42 @@
+Create database SampleLogin123
+go
+
+use SampleLogin123
+go
+
+Create table ProUser(
+id int identity primary key,
+Username varchar (50),
+Password varchar (50)
+)
+go
+
+insert into ProUser values ('Nemalan','Nemalan123')
+insert into ProUser values ('Aslam','Aslam123')
+
+
+
+Create table DataOfPPL
+(
+     ID int primary key identity,
+     FirstName nvarchar(50),
+     LastName nvarchar(50),
+     Gender nvarchar(50),
+     PhoneNo nvarchar(50),	
+	 DoorNo int,
+	 StreetName nvarchar(100),
+	 Area nvarchar(15),
+	 City nvarchar(15),
+	 PinCode int,
+	 Skill nvarchar(100)
+)
+Go
+
+Insert into DataOfPPL values ('David', 'Ravichandran', 'Male',9840172867, 11, 'ameerjan street', 'choolaimedu','chennai',600094, 'ASP.NET Developer')
+Insert into DataOfPPL values ('Karnish', 'Waran', 'Male',7299397161, 28, 'mangalapuram 9th street', 'chetpet','chennai',600031, 'Front end technology')
+Insert into DataOfPPL values ('Prithiv', 'Mohan', 'Male', 9600157763, 671, 'Sri Sakthi Nagar East street', 'arumbakkam','chennai',600106, 'Accounts Expert')
+Insert into DataOfPPL values ('Praveen', 'Kumar', 'Male', 6381351740, 27, 'Westnamachivayapuram', 'choolaimedu','chennai',600094, 'Medical Billing')
+Insert into DataOfPPL values ('Dhahaa', 'Mohammed', 'Male',9626251598, 8, 'North Taluk street', 'Sivagiri','tenkasi',625414, 'Digital Marketing')
+Insert into DataOfPPL values ('Mohamed', 'Imran', 'Male',9585158314, 147, 'Wahab street', 'Andavarpuram','Vilupuram',605103, 'Sql Developer')
+Insert into DataOfPPL values ('Niroj', 'Raj', 'Male', 8056143195, 87, 'New Market street', 'Chetpet', 'Chennai', 600045, 'Business Analyst')
+Go
