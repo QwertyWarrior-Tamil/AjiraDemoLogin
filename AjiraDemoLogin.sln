@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjiraDemoLogin", "AjiraDemoLogin.csproj", "{0CE5C243-E7AD-4CA7-AFC7-5CEFEDF5150E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE5C243-E7AD-4CA7-AFC7-5CEFEDF5150E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE5C243-E7AD-4CA7-AFC7-5CEFEDF5150E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE5C243-E7AD-4CA7-AFC7-5CEFEDF5150E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE5C243-E7AD-4CA7-AFC7-5CEFEDF5150E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86AE9809-D348-4E4A-8D19-2687952430EF}
+	EndGlobalSection
+EndGlobal
